@@ -1,0 +1,1824 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Select should close the dropdown if clicked outside 1`] = `
+<div
+  className="container-fluid d-flex flex-wrap p-5 bg-ui-light"
+  onClick={[Function]}
+>
+  <div
+    className="col-lg-2 col-sm-12"
+  >
+    <div
+      className="col-lg-6 col-md-3 d-flex justify-content-between pl-3 pb-1 select-menu"
+      onClick={[Function]}
+    >
+      <div
+        className="col-10 p-0 text-truncate text-dark"
+      >
+        Choose
+      </div>
+      <div>
+        <svg
+          height="6px"
+          version="1.1"
+          viewBox="0 0 10 6"
+          width="10px"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <title>
+            icon
+          </title>
+          <defs>
+            <filter
+              colorInterpolationFilters="auto"
+              id="filter-1"
+            >
+              <feColorMatrix
+                in="SourceGraphic"
+                type="matrix"
+                values="0 0 0 0 0.431373 0 0 0 0 0.454902 0 0 0 0 0.572549 0 0 0 1.000000 0"
+              />
+            </filter>
+          </defs>
+          <g
+            fill="none"
+            fillRule="evenodd"
+            id="Page-1"
+            stroke="none"
+            strokeWidth="1"
+          >
+            <g
+              id="Design-System-Challenge"
+              transform="translate(-1254.000000, -1591.000000)"
+            >
+              <g
+                filter="url(#filter-1)"
+                id="icon"
+                transform="translate(1251.000000, 1586.000000)"
+              >
+                <g
+                  transform="translate(8.000000, 8.000000) scale(-1, 1) translate(-8.000000, -8.000000) "
+                >
+                  <rect
+                    height="16"
+                    id="bounding-box"
+                    width="16"
+                    x="0"
+                    y="0"
+                  />
+                  <polyline
+                    id="path"
+                    points="3.5 6 8 10 12.5 6"
+                    stroke="#6E7492"
+                  />
+                </g>
+              </g>
+            </g>
+          </g>
+        </svg>
+      </div>
+    </div>
+    <div
+      className="col-lg-10 col-md-5 mt-2 p-0 d-flex flex-column select-dropdown text-dark"
+    >
+      <div
+        className="option d-flex "
+        key="0"
+        onClick={[Function]}
+      >
+        <span
+          className="col-lg-3"
+        />
+        <div
+          className="col-9 p-0"
+          style={
+            Object {
+              "overflowWrap": "break-word",
+            }
+          }
+        >
+          Carrot
+        </div>
+      </div>
+      <div
+        className="option d-flex "
+        key="1"
+        onClick={[Function]}
+      >
+        <span
+          className="col-lg-3"
+        />
+        <div
+          className="col-9 p-0"
+          style={
+            Object {
+              "overflowWrap": "break-word",
+            }
+          }
+        >
+          Grapes
+        </div>
+      </div>
+      <div
+        className="option d-flex "
+        key="2"
+        onClick={[Function]}
+      >
+        <span
+          className="col-lg-3"
+        />
+        <div
+          className="col-9 p-0"
+          style={
+            Object {
+              "overflowWrap": "break-word",
+            }
+          }
+        >
+          Apple
+        </div>
+      </div>
+      <div
+        className="option d-flex "
+        key="3"
+        onClick={[Function]}
+      >
+        <span
+          className="col-lg-3"
+        />
+        <div
+          className="col-9 p-0"
+          style={
+            Object {
+              "overflowWrap": "break-word",
+            }
+          }
+        >
+          Broccoli
+        </div>
+      </div>
+      <div
+        className="option d-flex "
+        key="4"
+        onClick={[Function]}
+      >
+        <span
+          className="col-lg-3"
+        />
+        <div
+          className="col-9 p-0"
+          style={
+            Object {
+              "overflowWrap": "break-word",
+            }
+          }
+        >
+          Garlic
+        </div>
+      </div>
+      <div
+        className="option d-flex "
+        key="5"
+        onClick={[Function]}
+      >
+        <span
+          className="col-lg-3"
+        />
+        <div
+          className="col-9 p-0"
+          style={
+            Object {
+              "overflowWrap": "break-word",
+            }
+          }
+        >
+          Orange
+        </div>
+      </div>
+      <div
+        className="option d-flex "
+        key="6"
+        onClick={[Function]}
+      >
+        <span
+          className="col-lg-3"
+        />
+        <div
+          className="col-9 p-0"
+          style={
+            Object {
+              "overflowWrap": "break-word",
+            }
+          }
+        >
+          Pomegranate
+        </div>
+      </div>
+      <div
+        className="option d-flex "
+        key="7"
+        onClick={[Function]}
+      >
+        <span
+          className="col-lg-3"
+        />
+        <div
+          className="col-9 p-0"
+          style={
+            Object {
+              "overflowWrap": "break-word",
+            }
+          }
+        >
+          Spinach
+        </div>
+      </div>
+    </div>
+  </div>
+  <div
+    className="ml-3 col-lg-3 col-md-8 col-sm-12 p-0 select-addt-data text-dark"
+    style={
+      Object {
+        "height": "max-content",
+      }
+    }
+  >
+    <div
+      className="option pl-3 p-1 d-flex "
+      key="0"
+      onClick={[Function]}
+    >
+      <span
+        className="col-1 p-0"
+      />
+      <div
+        className="col-11 pl-1"
+      >
+        <div
+          className="col-9 p-0 h6 mb-0"
+          style={
+            Object {
+              "overflowWrap": "break-word",
+            }
+          }
+        >
+          Carrot
+        </div>
+        <div
+          className="col-12 p-0"
+          style={
+            Object {
+              "overflowWrap": "break-word",
+            }
+          }
+        >
+          Carrots are packed with vitamin A, providing 428% of the daily value
+        </div>
+      </div>
+    </div>
+    <div
+      className="option pl-3 p-1 d-flex "
+      key="1"
+      onClick={[Function]}
+    >
+      <span
+        className="col-1 p-0"
+      />
+      <div
+        className="col-11 pl-1"
+      >
+        <div
+          className="col-9 p-0 h6 mb-0"
+          style={
+            Object {
+              "overflowWrap": "break-word",
+            }
+          }
+        >
+          Grapes
+        </div>
+        <div
+          className="col-12 p-0"
+          style={
+            Object {
+              "overflowWrap": "break-word",
+            }
+          }
+        />
+      </div>
+    </div>
+    <div
+      className="option pl-3 p-1 d-flex "
+      key="2"
+      onClick={[Function]}
+    >
+      <span
+        className="col-1 p-0"
+      />
+      <div
+        className="col-11 pl-1"
+      >
+        <div
+          className="col-9 p-0 h6 mb-0"
+          style={
+            Object {
+              "overflowWrap": "break-word",
+            }
+          }
+        >
+          Apple
+        </div>
+        <div
+          className="col-12 p-0"
+          style={
+            Object {
+              "overflowWrap": "break-word",
+            }
+          }
+        >
+          One of the most popular fruits, apples are chock-full of nutrition.
+        </div>
+      </div>
+    </div>
+    <div
+      className="option pl-3 p-1 d-flex "
+      key="3"
+      onClick={[Function]}
+    >
+      <span
+        className="col-1 p-0"
+      />
+      <div
+        className="col-11 pl-1"
+      >
+        <div
+          className="col-9 p-0 h6 mb-0"
+          style={
+            Object {
+              "overflowWrap": "break-word",
+            }
+          }
+        >
+          Broccoli
+        </div>
+        <div
+          className="col-12 p-0"
+          style={
+            Object {
+              "overflowWrap": "break-word",
+            }
+          }
+        >
+          It is rich in a sulfur-containing plant compound known as glucosinolate
+        </div>
+      </div>
+    </div>
+    <div
+      className="option pl-3 p-1 d-flex "
+      key="4"
+      onClick={[Function]}
+    >
+      <span
+        className="col-1 p-0"
+      />
+      <div
+        className="col-11 pl-1"
+      >
+        <div
+          className="col-9 p-0 h6 mb-0"
+          style={
+            Object {
+              "overflowWrap": "break-word",
+            }
+          }
+        >
+          Garlic
+        </div>
+        <div
+          className="col-12 p-0"
+          style={
+            Object {
+              "overflowWrap": "break-word",
+            }
+          }
+        >
+          Garlic has a long history of use as a medicinal plant, with roots tracing all the way back to ancient China and Egypt
+        </div>
+      </div>
+    </div>
+    <div
+      className="option pl-3 p-1 d-flex "
+      key="5"
+      onClick={[Function]}
+    >
+      <span
+        className="col-1 p-0"
+      />
+      <div
+        className="col-11 pl-1"
+      >
+        <div
+          className="col-9 p-0 h6 mb-0"
+          style={
+            Object {
+              "overflowWrap": "break-word",
+            }
+          }
+        >
+          Orange
+        </div>
+        <div
+          className="col-12 p-0"
+          style={
+            Object {
+              "overflowWrap": "break-word",
+            }
+          }
+        >
+          Oranges are known for their high vitamin C content, providing 91% of the DV in a single fruit.
+        </div>
+      </div>
+    </div>
+    <div
+      className="option pl-3 p-1 d-flex "
+      key="6"
+      onClick={[Function]}
+    >
+      <span
+        className="col-1 p-0"
+      />
+      <div
+        className="col-11 pl-1"
+      >
+        <div
+          className="col-9 p-0 h6 mb-0"
+          style={
+            Object {
+              "overflowWrap": "break-word",
+            }
+          }
+        >
+          Pomegranate
+        </div>
+        <div
+          className="col-12 p-0"
+          style={
+            Object {
+              "overflowWrap": "break-word",
+            }
+          }
+        >
+          Pomegranate contain a lengthy list of beneficial plant compounds, such as flavonoids, tannins, and lignans.
+        </div>
+      </div>
+    </div>
+    <div
+      className="option pl-3 p-1 d-flex "
+      key="7"
+      onClick={[Function]}
+    >
+      <span
+        className="col-1 p-0"
+      />
+      <div
+        className="col-11 pl-1"
+      >
+        <div
+          className="col-9 p-0 h6 mb-0"
+          style={
+            Object {
+              "overflowWrap": "break-word",
+            }
+          }
+        >
+          Spinach
+        </div>
+        <div
+          className="col-12 p-0"
+          style={
+            Object {
+              "overflowWrap": "break-word",
+            }
+          }
+        >
+          This leafy green tops the chart as one of the healthiest vegetables, thanks to its impressive nutrient profile
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Select should close the dropdown if clicked outside 2`] = `
+<div
+  className="container-fluid d-flex flex-wrap p-5 bg-ui-light"
+  onClick={[Function]}
+>
+  <div
+    className="col-lg-2 col-sm-12"
+  >
+    <div
+      className="col-lg-6 col-md-3 d-flex justify-content-between pl-3 pb-1 select-menu"
+      onClick={[Function]}
+    >
+      <div
+        className="col-10 p-0 text-truncate text-dark"
+      >
+        Choose
+      </div>
+      <div>
+        <svg
+          height="6px"
+          version="1.1"
+          viewBox="0 0 10 6"
+          width="10px"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <title>
+            icon
+          </title>
+          <defs>
+            <filter
+              colorInterpolationFilters="auto"
+              id="filter-1"
+            >
+              <feColorMatrix
+                in="SourceGraphic"
+                type="matrix"
+                values="0 0 0 0 0.431373 0 0 0 0 0.454902 0 0 0 0 0.572549 0 0 0 1.000000 0"
+              />
+            </filter>
+          </defs>
+          <g
+            fill="none"
+            fillRule="evenodd"
+            id="Page-1"
+            stroke="none"
+            strokeWidth="1"
+          >
+            <g
+              id="Design-System-Challenge"
+              transform="translate(-1254.000000, -1591.000000)"
+            >
+              <g
+                filter="url(#filter-1)"
+                id="icon"
+                transform="translate(1251.000000, 1586.000000)"
+              >
+                <g
+                  transform="translate(8.000000, 8.000000) scale(-1, 1) translate(-8.000000, -8.000000) "
+                >
+                  <rect
+                    height="16"
+                    id="bounding-box"
+                    width="16"
+                    x="0"
+                    y="0"
+                  />
+                  <polyline
+                    id="path"
+                    points="3.5 6 8 10 12.5 6"
+                    stroke="#6E7492"
+                  />
+                </g>
+              </g>
+            </g>
+          </g>
+        </svg>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Select should render select component in collapsed view on page load 1`] = `
+<div
+  className="container-fluid d-flex flex-wrap p-5 bg-ui-light"
+  onClick={[Function]}
+>
+  <div
+    className="col-lg-2 col-sm-12"
+  >
+    <div
+      className="col-lg-6 col-md-3 d-flex justify-content-between pl-3 pb-1 select-menu"
+      onClick={[Function]}
+    >
+      <div
+        className="col-10 p-0 text-truncate text-dark"
+      >
+        Choose
+      </div>
+      <div>
+        <svg
+          height="6px"
+          version="1.1"
+          viewBox="0 0 10 6"
+          width="10px"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <title>
+            icon
+          </title>
+          <defs>
+            <filter
+              colorInterpolationFilters="auto"
+              id="filter-1"
+            >
+              <feColorMatrix
+                in="SourceGraphic"
+                type="matrix"
+                values="0 0 0 0 0.431373 0 0 0 0 0.454902 0 0 0 0 0.572549 0 0 0 1.000000 0"
+              />
+            </filter>
+          </defs>
+          <g
+            fill="none"
+            fillRule="evenodd"
+            id="Page-1"
+            stroke="none"
+            strokeWidth="1"
+          >
+            <g
+              id="Design-System-Challenge"
+              transform="translate(-1254.000000, -1591.000000)"
+            >
+              <g
+                filter="url(#filter-1)"
+                id="icon"
+                transform="translate(1251.000000, 1586.000000)"
+              >
+                <g
+                  transform="translate(8.000000, 8.000000) scale(-1, 1) translate(-8.000000, -8.000000) "
+                >
+                  <rect
+                    height="16"
+                    id="bounding-box"
+                    width="16"
+                    x="0"
+                    y="0"
+                  />
+                  <polyline
+                    id="path"
+                    points="3.5 6 8 10 12.5 6"
+                    stroke="#6E7492"
+                  />
+                </g>
+              </g>
+            </g>
+          </g>
+        </svg>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Select should render select component in expanded view with 2 dropdown on click of select 1`] = `
+<div
+  className="container-fluid d-flex flex-wrap p-5 bg-ui-light"
+  onClick={[Function]}
+>
+  <div
+    className="col-lg-2 col-sm-12"
+  >
+    <div
+      className="col-lg-6 col-md-3 d-flex justify-content-between pl-3 pb-1 select-menu"
+      onClick={[Function]}
+    >
+      <div
+        className="col-10 p-0 text-truncate text-dark"
+      >
+        Choose
+      </div>
+      <div>
+        <svg
+          height="6px"
+          version="1.1"
+          viewBox="0 0 10 6"
+          width="10px"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <title>
+            icon
+          </title>
+          <defs>
+            <filter
+              colorInterpolationFilters="auto"
+              id="filter-1"
+            >
+              <feColorMatrix
+                in="SourceGraphic"
+                type="matrix"
+                values="0 0 0 0 0.431373 0 0 0 0 0.454902 0 0 0 0 0.572549 0 0 0 1.000000 0"
+              />
+            </filter>
+          </defs>
+          <g
+            fill="none"
+            fillRule="evenodd"
+            id="Page-1"
+            stroke="none"
+            strokeWidth="1"
+          >
+            <g
+              id="Design-System-Challenge"
+              transform="translate(-1254.000000, -1591.000000)"
+            >
+              <g
+                filter="url(#filter-1)"
+                id="icon"
+                transform="translate(1251.000000, 1586.000000)"
+              >
+                <g
+                  transform="translate(8.000000, 8.000000) scale(-1, 1) translate(-8.000000, -8.000000) "
+                >
+                  <rect
+                    height="16"
+                    id="bounding-box"
+                    width="16"
+                    x="0"
+                    y="0"
+                  />
+                  <polyline
+                    id="path"
+                    points="3.5 6 8 10 12.5 6"
+                    stroke="#6E7492"
+                  />
+                </g>
+              </g>
+            </g>
+          </g>
+        </svg>
+      </div>
+    </div>
+    <div
+      className="col-lg-10 col-md-5 mt-2 p-0 d-flex flex-column select-dropdown text-dark"
+    >
+      <div
+        className="option d-flex "
+        key="0"
+        onClick={[Function]}
+      >
+        <span
+          className="col-lg-3"
+        />
+        <div
+          className="col-9 p-0"
+          style={
+            Object {
+              "overflowWrap": "break-word",
+            }
+          }
+        >
+          Carrot
+        </div>
+      </div>
+      <div
+        className="option d-flex "
+        key="1"
+        onClick={[Function]}
+      >
+        <span
+          className="col-lg-3"
+        />
+        <div
+          className="col-9 p-0"
+          style={
+            Object {
+              "overflowWrap": "break-word",
+            }
+          }
+        >
+          Grapes
+        </div>
+      </div>
+      <div
+        className="option d-flex "
+        key="2"
+        onClick={[Function]}
+      >
+        <span
+          className="col-lg-3"
+        />
+        <div
+          className="col-9 p-0"
+          style={
+            Object {
+              "overflowWrap": "break-word",
+            }
+          }
+        >
+          Apple
+        </div>
+      </div>
+      <div
+        className="option d-flex "
+        key="3"
+        onClick={[Function]}
+      >
+        <span
+          className="col-lg-3"
+        />
+        <div
+          className="col-9 p-0"
+          style={
+            Object {
+              "overflowWrap": "break-word",
+            }
+          }
+        >
+          Broccoli
+        </div>
+      </div>
+      <div
+        className="option d-flex "
+        key="4"
+        onClick={[Function]}
+      >
+        <span
+          className="col-lg-3"
+        />
+        <div
+          className="col-9 p-0"
+          style={
+            Object {
+              "overflowWrap": "break-word",
+            }
+          }
+        >
+          Garlic
+        </div>
+      </div>
+      <div
+        className="option d-flex "
+        key="5"
+        onClick={[Function]}
+      >
+        <span
+          className="col-lg-3"
+        />
+        <div
+          className="col-9 p-0"
+          style={
+            Object {
+              "overflowWrap": "break-word",
+            }
+          }
+        >
+          Orange
+        </div>
+      </div>
+      <div
+        className="option d-flex "
+        key="6"
+        onClick={[Function]}
+      >
+        <span
+          className="col-lg-3"
+        />
+        <div
+          className="col-9 p-0"
+          style={
+            Object {
+              "overflowWrap": "break-word",
+            }
+          }
+        >
+          Pomegranate
+        </div>
+      </div>
+      <div
+        className="option d-flex "
+        key="7"
+        onClick={[Function]}
+      >
+        <span
+          className="col-lg-3"
+        />
+        <div
+          className="col-9 p-0"
+          style={
+            Object {
+              "overflowWrap": "break-word",
+            }
+          }
+        >
+          Spinach
+        </div>
+      </div>
+    </div>
+  </div>
+  <div
+    className="ml-3 col-lg-3 col-md-8 col-sm-12 p-0 select-addt-data text-dark"
+    style={
+      Object {
+        "height": "max-content",
+      }
+    }
+  >
+    <div
+      className="option pl-3 p-1 d-flex "
+      key="0"
+      onClick={[Function]}
+    >
+      <span
+        className="col-1 p-0"
+      />
+      <div
+        className="col-11 pl-1"
+      >
+        <div
+          className="col-9 p-0 h6 mb-0"
+          style={
+            Object {
+              "overflowWrap": "break-word",
+            }
+          }
+        >
+          Carrot
+        </div>
+        <div
+          className="col-12 p-0"
+          style={
+            Object {
+              "overflowWrap": "break-word",
+            }
+          }
+        >
+          Carrots are packed with vitamin A, providing 428% of the daily value
+        </div>
+      </div>
+    </div>
+    <div
+      className="option pl-3 p-1 d-flex "
+      key="1"
+      onClick={[Function]}
+    >
+      <span
+        className="col-1 p-0"
+      />
+      <div
+        className="col-11 pl-1"
+      >
+        <div
+          className="col-9 p-0 h6 mb-0"
+          style={
+            Object {
+              "overflowWrap": "break-word",
+            }
+          }
+        >
+          Grapes
+        </div>
+        <div
+          className="col-12 p-0"
+          style={
+            Object {
+              "overflowWrap": "break-word",
+            }
+          }
+        />
+      </div>
+    </div>
+    <div
+      className="option pl-3 p-1 d-flex "
+      key="2"
+      onClick={[Function]}
+    >
+      <span
+        className="col-1 p-0"
+      />
+      <div
+        className="col-11 pl-1"
+      >
+        <div
+          className="col-9 p-0 h6 mb-0"
+          style={
+            Object {
+              "overflowWrap": "break-word",
+            }
+          }
+        >
+          Apple
+        </div>
+        <div
+          className="col-12 p-0"
+          style={
+            Object {
+              "overflowWrap": "break-word",
+            }
+          }
+        >
+          One of the most popular fruits, apples are chock-full of nutrition.
+        </div>
+      </div>
+    </div>
+    <div
+      className="option pl-3 p-1 d-flex "
+      key="3"
+      onClick={[Function]}
+    >
+      <span
+        className="col-1 p-0"
+      />
+      <div
+        className="col-11 pl-1"
+      >
+        <div
+          className="col-9 p-0 h6 mb-0"
+          style={
+            Object {
+              "overflowWrap": "break-word",
+            }
+          }
+        >
+          Broccoli
+        </div>
+        <div
+          className="col-12 p-0"
+          style={
+            Object {
+              "overflowWrap": "break-word",
+            }
+          }
+        >
+          It is rich in a sulfur-containing plant compound known as glucosinolate
+        </div>
+      </div>
+    </div>
+    <div
+      className="option pl-3 p-1 d-flex "
+      key="4"
+      onClick={[Function]}
+    >
+      <span
+        className="col-1 p-0"
+      />
+      <div
+        className="col-11 pl-1"
+      >
+        <div
+          className="col-9 p-0 h6 mb-0"
+          style={
+            Object {
+              "overflowWrap": "break-word",
+            }
+          }
+        >
+          Garlic
+        </div>
+        <div
+          className="col-12 p-0"
+          style={
+            Object {
+              "overflowWrap": "break-word",
+            }
+          }
+        >
+          Garlic has a long history of use as a medicinal plant, with roots tracing all the way back to ancient China and Egypt
+        </div>
+      </div>
+    </div>
+    <div
+      className="option pl-3 p-1 d-flex "
+      key="5"
+      onClick={[Function]}
+    >
+      <span
+        className="col-1 p-0"
+      />
+      <div
+        className="col-11 pl-1"
+      >
+        <div
+          className="col-9 p-0 h6 mb-0"
+          style={
+            Object {
+              "overflowWrap": "break-word",
+            }
+          }
+        >
+          Orange
+        </div>
+        <div
+          className="col-12 p-0"
+          style={
+            Object {
+              "overflowWrap": "break-word",
+            }
+          }
+        >
+          Oranges are known for their high vitamin C content, providing 91% of the DV in a single fruit.
+        </div>
+      </div>
+    </div>
+    <div
+      className="option pl-3 p-1 d-flex "
+      key="6"
+      onClick={[Function]}
+    >
+      <span
+        className="col-1 p-0"
+      />
+      <div
+        className="col-11 pl-1"
+      >
+        <div
+          className="col-9 p-0 h6 mb-0"
+          style={
+            Object {
+              "overflowWrap": "break-word",
+            }
+          }
+        >
+          Pomegranate
+        </div>
+        <div
+          className="col-12 p-0"
+          style={
+            Object {
+              "overflowWrap": "break-word",
+            }
+          }
+        >
+          Pomegranate contain a lengthy list of beneficial plant compounds, such as flavonoids, tannins, and lignans.
+        </div>
+      </div>
+    </div>
+    <div
+      className="option pl-3 p-1 d-flex "
+      key="7"
+      onClick={[Function]}
+    >
+      <span
+        className="col-1 p-0"
+      />
+      <div
+        className="col-11 pl-1"
+      >
+        <div
+          className="col-9 p-0 h6 mb-0"
+          style={
+            Object {
+              "overflowWrap": "break-word",
+            }
+          }
+        >
+          Spinach
+        </div>
+        <div
+          className="col-12 p-0"
+          style={
+            Object {
+              "overflowWrap": "break-word",
+            }
+          }
+        >
+          This leafy green tops the chart as one of the healthiest vegetables, thanks to its impressive nutrient profile
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Select should select a value from dropdown 1`] = `
+<div
+  className="container-fluid d-flex flex-wrap p-5 bg-ui-light"
+  onClick={[Function]}
+>
+  <div
+    className="col-lg-2 col-sm-12"
+  >
+    <div
+      className="col-lg-6 col-md-3 d-flex justify-content-between pl-3 pb-1 select-menu"
+      onClick={[Function]}
+    >
+      <div
+        className="col-10 p-0 text-truncate text-dark"
+      >
+        Carrot
+      </div>
+      <div>
+        <svg
+          height="6px"
+          version="1.1"
+          viewBox="0 0 10 6"
+          width="10px"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <title>
+            icon
+          </title>
+          <defs>
+            <filter
+              colorInterpolationFilters="auto"
+              id="filter-1"
+            >
+              <feColorMatrix
+                in="SourceGraphic"
+                type="matrix"
+                values="0 0 0 0 0.431373 0 0 0 0 0.454902 0 0 0 0 0.572549 0 0 0 1.000000 0"
+              />
+            </filter>
+          </defs>
+          <g
+            fill="none"
+            fillRule="evenodd"
+            id="Page-1"
+            stroke="none"
+            strokeWidth="1"
+          >
+            <g
+              id="Design-System-Challenge"
+              transform="translate(-1254.000000, -1591.000000)"
+            >
+              <g
+                filter="url(#filter-1)"
+                id="icon"
+                transform="translate(1251.000000, 1586.000000)"
+              >
+                <g
+                  transform="translate(8.000000, 8.000000) scale(-1, 1) translate(-8.000000, -8.000000) "
+                >
+                  <rect
+                    height="16"
+                    id="bounding-box"
+                    width="16"
+                    x="0"
+                    y="0"
+                  />
+                  <polyline
+                    id="path"
+                    points="3.5 6 8 10 12.5 6"
+                    stroke="#6E7492"
+                  />
+                </g>
+              </g>
+            </g>
+          </g>
+        </svg>
+      </div>
+    </div>
+    <div
+      className="col-lg-10 col-md-5 mt-2 p-0 d-flex flex-column select-dropdown text-dark"
+    >
+      <div
+        className="option d-flex selected-item"
+        key="0"
+        onClick={[Function]}
+      >
+        <span
+          className="col-lg-3"
+        >
+          <svg
+            height="16px"
+            version="1.1"
+            viewBox="0 0 16 16"
+            width="16px"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <defs>
+              <filter
+                id="filter-1"
+              >
+                <feColorMatrix
+                  in="SourceGraphic"
+                  type="matrix"
+                  values="0 0 0 0 1.000000 0 0 0 0 1.000000 0 0 0 0 1.000000 0 0 0 1.000000 0"
+                />
+              </filter>
+            </defs>
+            <g
+              fill="none"
+              fillRule="evenodd"
+              id="Page-1"
+              stroke="none"
+              strokeWidth="1"
+            >
+              <g
+                id="Design-System-Challenge"
+                transform="translate(-738.000000, -276.000000)"
+              >
+                <g
+                  id="light-mode"
+                  transform="translate(702.000000, 208.000000)"
+                >
+                  <g
+                    id="select-menu"
+                    transform="translate(24.000000, 60.000000)"
+                  >
+                    <g
+                      filter="url(#filter-1)"
+                      id="icon:-check,-small,-bold"
+                      transform="translate(0.000000, 4.000000)"
+                    >
+                      <g
+                        transform="translate(12.000000, 4.000000)"
+                      >
+                        <rect
+                          height="16"
+                          id="bounding-box"
+                          width="16"
+                          x="0"
+                          y="0"
+                        />
+                        <polyline
+                          id="path"
+                          points="12.5 4.5 7 11 3.5 7.5"
+                          stroke="#6E7492"
+                          strokeWidth="2"
+                        />
+                      </g>
+                    </g>
+                  </g>
+                </g>
+              </g>
+            </g>
+          </svg>
+        </span>
+        <div
+          className="col-9 p-0"
+          style={
+            Object {
+              "overflowWrap": "break-word",
+            }
+          }
+        >
+          Carrot
+        </div>
+      </div>
+      <div
+        className="option d-flex "
+        key="1"
+        onClick={[Function]}
+      >
+        <span
+          className="col-lg-3"
+        />
+        <div
+          className="col-9 p-0"
+          style={
+            Object {
+              "overflowWrap": "break-word",
+            }
+          }
+        >
+          Grapes
+        </div>
+      </div>
+      <div
+        className="option d-flex "
+        key="2"
+        onClick={[Function]}
+      >
+        <span
+          className="col-lg-3"
+        />
+        <div
+          className="col-9 p-0"
+          style={
+            Object {
+              "overflowWrap": "break-word",
+            }
+          }
+        >
+          Apple
+        </div>
+      </div>
+      <div
+        className="option d-flex "
+        key="3"
+        onClick={[Function]}
+      >
+        <span
+          className="col-lg-3"
+        />
+        <div
+          className="col-9 p-0"
+          style={
+            Object {
+              "overflowWrap": "break-word",
+            }
+          }
+        >
+          Broccoli
+        </div>
+      </div>
+      <div
+        className="option d-flex "
+        key="4"
+        onClick={[Function]}
+      >
+        <span
+          className="col-lg-3"
+        />
+        <div
+          className="col-9 p-0"
+          style={
+            Object {
+              "overflowWrap": "break-word",
+            }
+          }
+        >
+          Garlic
+        </div>
+      </div>
+      <div
+        className="option d-flex "
+        key="5"
+        onClick={[Function]}
+      >
+        <span
+          className="col-lg-3"
+        />
+        <div
+          className="col-9 p-0"
+          style={
+            Object {
+              "overflowWrap": "break-word",
+            }
+          }
+        >
+          Orange
+        </div>
+      </div>
+      <div
+        className="option d-flex "
+        key="6"
+        onClick={[Function]}
+      >
+        <span
+          className="col-lg-3"
+        />
+        <div
+          className="col-9 p-0"
+          style={
+            Object {
+              "overflowWrap": "break-word",
+            }
+          }
+        >
+          Pomegranate
+        </div>
+      </div>
+      <div
+        className="option d-flex "
+        key="7"
+        onClick={[Function]}
+      >
+        <span
+          className="col-lg-3"
+        />
+        <div
+          className="col-9 p-0"
+          style={
+            Object {
+              "overflowWrap": "break-word",
+            }
+          }
+        >
+          Spinach
+        </div>
+      </div>
+    </div>
+  </div>
+  <div
+    className="ml-3 col-lg-3 col-md-8 col-sm-12 p-0 select-addt-data text-dark"
+    style={
+      Object {
+        "height": "max-content",
+      }
+    }
+  >
+    <div
+      className="option pl-3 p-1 d-flex selected-item"
+      key="0"
+      onClick={[Function]}
+    >
+      <span
+        className="col-1 p-0"
+      >
+        <svg
+          height="16px"
+          version="1.1"
+          viewBox="0 0 16 16"
+          width="16px"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <defs>
+            <filter
+              id="filter-1"
+            >
+              <feColorMatrix
+                in="SourceGraphic"
+                type="matrix"
+                values="0 0 0 0 1.000000 0 0 0 0 1.000000 0 0 0 0 1.000000 0 0 0 1.000000 0"
+              />
+            </filter>
+          </defs>
+          <g
+            fill="none"
+            fillRule="evenodd"
+            id="Page-1"
+            stroke="none"
+            strokeWidth="1"
+          >
+            <g
+              id="Design-System-Challenge"
+              transform="translate(-738.000000, -276.000000)"
+            >
+              <g
+                id="light-mode"
+                transform="translate(702.000000, 208.000000)"
+              >
+                <g
+                  id="select-menu"
+                  transform="translate(24.000000, 60.000000)"
+                >
+                  <g
+                    filter="url(#filter-1)"
+                    id="icon:-check,-small,-bold"
+                    transform="translate(0.000000, 4.000000)"
+                  >
+                    <g
+                      transform="translate(12.000000, 4.000000)"
+                    >
+                      <rect
+                        height="16"
+                        id="bounding-box"
+                        width="16"
+                        x="0"
+                        y="0"
+                      />
+                      <polyline
+                        id="path"
+                        points="12.5 4.5 7 11 3.5 7.5"
+                        stroke="#6E7492"
+                        strokeWidth="2"
+                      />
+                    </g>
+                  </g>
+                </g>
+              </g>
+            </g>
+          </g>
+        </svg>
+      </span>
+      <div
+        className="col-11 pl-1"
+      >
+        <div
+          className="col-9 p-0 h6 mb-0"
+          style={
+            Object {
+              "overflowWrap": "break-word",
+            }
+          }
+        >
+          Carrot
+        </div>
+        <div
+          className="col-12 p-0"
+          style={
+            Object {
+              "overflowWrap": "break-word",
+            }
+          }
+        >
+          Carrots are packed with vitamin A, providing 428% of the daily value
+        </div>
+      </div>
+    </div>
+    <div
+      className="option pl-3 p-1 d-flex "
+      key="1"
+      onClick={[Function]}
+    >
+      <span
+        className="col-1 p-0"
+      />
+      <div
+        className="col-11 pl-1"
+      >
+        <div
+          className="col-9 p-0 h6 mb-0"
+          style={
+            Object {
+              "overflowWrap": "break-word",
+            }
+          }
+        >
+          Grapes
+        </div>
+        <div
+          className="col-12 p-0"
+          style={
+            Object {
+              "overflowWrap": "break-word",
+            }
+          }
+        />
+      </div>
+    </div>
+    <div
+      className="option pl-3 p-1 d-flex "
+      key="2"
+      onClick={[Function]}
+    >
+      <span
+        className="col-1 p-0"
+      />
+      <div
+        className="col-11 pl-1"
+      >
+        <div
+          className="col-9 p-0 h6 mb-0"
+          style={
+            Object {
+              "overflowWrap": "break-word",
+            }
+          }
+        >
+          Apple
+        </div>
+        <div
+          className="col-12 p-0"
+          style={
+            Object {
+              "overflowWrap": "break-word",
+            }
+          }
+        >
+          One of the most popular fruits, apples are chock-full of nutrition.
+        </div>
+      </div>
+    </div>
+    <div
+      className="option pl-3 p-1 d-flex "
+      key="3"
+      onClick={[Function]}
+    >
+      <span
+        className="col-1 p-0"
+      />
+      <div
+        className="col-11 pl-1"
+      >
+        <div
+          className="col-9 p-0 h6 mb-0"
+          style={
+            Object {
+              "overflowWrap": "break-word",
+            }
+          }
+        >
+          Broccoli
+        </div>
+        <div
+          className="col-12 p-0"
+          style={
+            Object {
+              "overflowWrap": "break-word",
+            }
+          }
+        >
+          It is rich in a sulfur-containing plant compound known as glucosinolate
+        </div>
+      </div>
+    </div>
+    <div
+      className="option pl-3 p-1 d-flex "
+      key="4"
+      onClick={[Function]}
+    >
+      <span
+        className="col-1 p-0"
+      />
+      <div
+        className="col-11 pl-1"
+      >
+        <div
+          className="col-9 p-0 h6 mb-0"
+          style={
+            Object {
+              "overflowWrap": "break-word",
+            }
+          }
+        >
+          Garlic
+        </div>
+        <div
+          className="col-12 p-0"
+          style={
+            Object {
+              "overflowWrap": "break-word",
+            }
+          }
+        >
+          Garlic has a long history of use as a medicinal plant, with roots tracing all the way back to ancient China and Egypt
+        </div>
+      </div>
+    </div>
+    <div
+      className="option pl-3 p-1 d-flex "
+      key="5"
+      onClick={[Function]}
+    >
+      <span
+        className="col-1 p-0"
+      />
+      <div
+        className="col-11 pl-1"
+      >
+        <div
+          className="col-9 p-0 h6 mb-0"
+          style={
+            Object {
+              "overflowWrap": "break-word",
+            }
+          }
+        >
+          Orange
+        </div>
+        <div
+          className="col-12 p-0"
+          style={
+            Object {
+              "overflowWrap": "break-word",
+            }
+          }
+        >
+          Oranges are known for their high vitamin C content, providing 91% of the DV in a single fruit.
+        </div>
+      </div>
+    </div>
+    <div
+      className="option pl-3 p-1 d-flex "
+      key="6"
+      onClick={[Function]}
+    >
+      <span
+        className="col-1 p-0"
+      />
+      <div
+        className="col-11 pl-1"
+      >
+        <div
+          className="col-9 p-0 h6 mb-0"
+          style={
+            Object {
+              "overflowWrap": "break-word",
+            }
+          }
+        >
+          Pomegranate
+        </div>
+        <div
+          className="col-12 p-0"
+          style={
+            Object {
+              "overflowWrap": "break-word",
+            }
+          }
+        >
+          Pomegranate contain a lengthy list of beneficial plant compounds, such as flavonoids, tannins, and lignans.
+        </div>
+      </div>
+    </div>
+    <div
+      className="option pl-3 p-1 d-flex "
+      key="7"
+      onClick={[Function]}
+    >
+      <span
+        className="col-1 p-0"
+      />
+      <div
+        className="col-11 pl-1"
+      >
+        <div
+          className="col-9 p-0 h6 mb-0"
+          style={
+            Object {
+              "overflowWrap": "break-word",
+            }
+          }
+        >
+          Spinach
+        </div>
+        <div
+          className="col-12 p-0"
+          style={
+            Object {
+              "overflowWrap": "break-word",
+            }
+          }
+        >
+          This leafy green tops the chart as one of the healthiest vegetables, thanks to its impressive nutrient profile
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

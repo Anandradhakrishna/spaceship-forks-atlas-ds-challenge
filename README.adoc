@@ -1,0 +1,70 @@
+﻿Steps to set up the code base locally:
+
+1. clone the repository
+2. Run the command "npm install"
+3. after node_modules installation is complete. Run the command "npm start"
+4. local dev environment will be setup and will run on the local env, "http://localhost:3000/".
+
+
+= Select Menu Component
+
+== Basic usage
+
+The Select Menu Component can be used to display a dropdown similar to HTML select, in this component it display additional dorpdown which displays the additional data that is sent to the component
+
+Properties are passed to Select Menu Component as a lflat structure of props.
+
+.Props
+|===
+| options
+| Calling component/application has to pass "options" as prop which is an array of objects, each object should consist of "value" as mandatory key, to display additional data object can have "addtData" as key and pass the data which is optional. to Group the dropdown values, each object can have the key "group", the Select component will segregate the groups and display accordingly.
+
+| theme
+| Theme (Optional). if theme is provided as a prop to Select component, it will apply background colot and colors to dropdown accordingly. It can take 2 values, `dark`, `light`. Default value is light, if prop is not passed
+
+| placeholder
+| string (Optional). sets the placeholder for the select component when no values are selected. if placeholder is not passed, it displays `Select` as default value.
+
+| onChange
+| void (Optional). call back method. This will be triggered when user selects any value from dropdown options. By using this call back method, the calling application/component can use the value passed as call back parameter and use it in their component.
+
+[source,tsx]
+.Complete example 1
+-------
+
+import { Select, Theme } from './components';
+
+const options = [
+    { value: 'Carrot', addtData: 'Carrots are packed with vitamin A, providing 428% of the daily recommended value in just one cup (128 grams)', group: 'vegetables' },
+    { value: 'Grapes', addtData: 'Grapes are convenient, healthy, and particularly high in potassium and vitamin K, which both support heart health.', group: 'fruits' },
+    { value: 'Apple', addtData: 'One of the most popular fruits, apples are chock-full of nutrition.', group: 'fruits' },
+    { value: 'Broccoli', addtData: 'It is rich in a sulfur-containing plant compound known as glucosinolate, as well as sulforaphane, a by-product of glucosinolate', group: 'vegetables' },
+    { value: 'Garlic', addtData: 'Garlic has a long history of use as a medicinal plant, with roots tracing all the way back to ancient China and Egypt', group: 'vegetables' },
+    { value: 'Orange', addtData: 'Oranges are known for their high vitamin C content, providing 91% of the DV in a single fruit.', group: 'fruits' },
+    { value: 'Pomegranate', addtData: 'Pomegranate contain a lengthy list of beneficial plant compounds, such as flavonoids, tannins, and lignans.', group: 'fruits' },
+    { value: 'Spinach', addtData: 'This leafy green tops the chart as one of the healthiest vegetables, thanks to its impressive nutrient profile', group: 'vegetables' }
+]
+
+<Select options={options} />
+
+.Complete example 1
+-------
+
+import { Select, Theme } from './components';
+
+const options = [
+    { value: 'Carrot', addtData: 'Carrots are packed with vitamin A, providing 428% of the daily recommended value in just one cup (128 grams)', group: 'vegetables' },
+    { value: 'Grapes', addtData: 'Grapes are convenient, healthy, and particularly high in potassium and vitamin K, which both support heart health.', group: 'fruits' },
+    { value: 'Apple', addtData: 'One of the most popular fruits, apples are chock-full of nutrition.', group: 'fruits' },
+    { value: 'Broccoli', addtData: 'It is rich in a sulfur-containing plant compound known as glucosinolate, as well as sulforaphane, a by-product of glucosinolate', group: 'vegetables' },
+    { value: 'Garlic', addtData: 'Garlic has a long history of use as a medicinal plant, with roots tracing all the way back to ancient China and Egypt', group: 'vegetables' },
+    { value: 'Orange', addtData: 'Oranges are known for their high vitamin C content, providing 91% of the DV in a single fruit.', group: 'fruits' },
+    { value: 'Pomegranate', addtData: 'Pomegranate contain a lengthy list of beneficial plant compounds, such as flavonoids, tannins, and lignans.', group: 'fruits' },
+    { value: 'Spinach', addtData: 'This leafy green tops the chart as one of the healthiest vegetables, thanks to its impressive nutrient profile', group: 'vegetables' }
+
+<Select options={options} theme={Theme.DARK} placeholder={'Choose'}/>
+
+
+
+
+
