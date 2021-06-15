@@ -2,8 +2,8 @@
 
 1. clone the repository
 2. Run the command "npm install"
-3. after node_modules installation is complete. Run the command "npm start"
-4. local dev environment will be setup and will run on the local env, "http://localhost:3000/".
+3. After node_modules installation is complete. switch to "spaceship-forks-atlas-ds-challenge" folder. Run the command "npm start"
+4. Local dev environment will be setup and will run on the local env, "http://localhost:3000/".
 
 
 = Select Menu Component
